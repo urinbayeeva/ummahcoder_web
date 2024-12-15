@@ -4,5 +4,6 @@ import 'core/config/release_config.dart';
 
 void main() {
   final config = ReleaseConfig();
-  runApp(MyApp(config: config));
+  runApp(
+    MyApp(config: config));
 }
